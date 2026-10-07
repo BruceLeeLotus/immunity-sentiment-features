@@ -1,0 +1,57 @@
+{
+  "Full immunity (all 17 feats)": {
+    "dim": 17,
+    "mi_dim": 12,
+    "weibo_acc": 83.85,
+    "weibo_bacc": 89.08,
+    "weibo_mf1": 76.83,
+    "std_acc": 97.7
+  },
+  "w/o polarity-region moments": {
+    "dim": 9,
+    "mi_dim": 9,
+    "weibo_acc": 80.64,
+    "weibo_bacc": 87.26,
+    "weibo_mf1": 73.54,
+    "std_acc": 97.5
+  },
+  "w/o escape channel": {
+    "dim": 15,
+    "mi_dim": 12,
+    "weibo_acc": 84.37,
+    "weibo_bacc": 89.51,
+    "weibo_mf1": 77.42,
+    "std_acc": 97.8
+  },
+  "w/o tolerance gate": {
+    "dim": 16,
+    "mi_dim": 12,
+    "weibo_acc": 83.85,
+    "weibo_bacc": 89.08,
+    "weibo_mf1": 76.83,
+    "std_acc": 97.7
+  },
+  "w/o memory affinity": {
+    "dim": 13,
+    "mi_dim": 12,
+    "weibo_acc": 83.85,
+    "weibo_bacc": 89.08,
+    "weibo_mf1": 76.83,
+    "std_acc": 97.7
+  },
+  "w/o dominance & conflict": {
+    "dim": 15,
+    "mi_dim": 12,
+    "weibo_acc": 84.95,
+    "weibo_bacc": 89.79,
+    "weibo_mf1": 78.04,
+    "std_acc": 97.8
+  },
+  "w/o immunity (base only)": {
+    "dim": 0,
+    "weibo_acc": 76.82,
+    "weibo_bacc": 85.14,
+    "weibo_mf1": 69.92,
+    "std_acc": 97.55
+  }
+}

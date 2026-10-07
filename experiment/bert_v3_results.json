@@ -1,0 +1,40 @@
+{
+  "config": {
+    "max_length": 64,
+    "epochs": 3,
+    "lr": 2e-05,
+    "batch": 32,
+    "device": "cuda"
+  },
+  "std": {
+    "acc": 93.85,
+    "bacc": 93.85,
+    "mf1": 93.85
+  },
+  "spc_all": {
+    "acc": 67.99,
+    "bacc": 65.64,
+    "mf1": 60.1
+  },
+  "spc_weibo": {
+    "acc": 77.81,
+    "bacc": 82.86,
+    "mf1": 70.03
+  },
+  "spc_ext": {
+    "acc": 34.9,
+    "bacc": 30.75,
+    "mf1": 31.38
+  },
+  "runtime_s": 467.9,
+  "subtype_acc": {
+    "sarcasm_neg": 42.84,
+    "irony": 84.64,
+    "netslang_pos": 87.2,
+    "sarcasm_pos": 18.66,
+    "pos_surface": 71.5,
+    "netslang": 91.88,
+    "irony_pos": 91.0,
+    "synthetic_irony": 39.78
+  }
+}

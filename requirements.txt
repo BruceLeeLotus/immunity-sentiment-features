@@ -1,0 +1,31 @@
+# 论文数据图与实验复现所需依赖
+# 安装：python -m venv .venv && .venv\Scripts\pip install -r requirements.txt
+# 本文件版本号来自实际跑通论文全部图表的环境（Python 3.11.14 / Windows）
+
+# ---- 核心数值与机器学习 ----
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+scikit-learn==1.9.1
+
+# ---- 数据图绘制（矢量 PDF + 300dpi PNG 预览）----
+matplotlib==3.11.2
+
+# ---- 架构图 Fig.1 绘制（reportlab 出矢量 PDF，pypdfium2 渲预览）----
+reportlab==5.0.1
+pypdfium2==5.13.0
+pillow==12.3.0
+
+# ---- 数据下载与 PDF 转图 ----
+requests>=2.31
+PyMuPDF>=1.24
+
+# ---- BERT 基线（run_bert_v3.py 需要，请按本机 CUDA 版本自行安装）----
+# 论文中的 BERT 基线使用 bert-base-chinese 全量微调
+# torch>=2.4
+# transformers>=4.44
+
+# ---- 可选：绘图库横向对比实验（论文用图不依赖，见 实验工作区/make_figures_*.py）----
+# seaborn==0.13.2
+# scienceplots==2.2.2
+# cnsplots==0.7.0
